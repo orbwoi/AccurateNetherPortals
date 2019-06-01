@@ -1,0 +1,37 @@
+{	
+  "schemaVersion": 1,
+  "id": "accuratenetherportals",
+  "version": "${version}",
+
+  "name": "Accurate Nether Portals",
+  "description": "Nether portals now always bring you back to the place you came from!",
+  "authors": [
+    "Clayborn"
+  ],
+  "contact": {
+    "homepage": "https://minecraft.curseforge.com/projects/accurate-nether-portals",
+    "sources": "https://github.com/orbwoi/AccurateNetherPortals"
+  },
+
+  "license": "MIT",
+  "icon": "assets/accuratenetherportals/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.clayborn.accuratenetherportals.AccurateNetherPortalsMod"
+    ]
+  },
+  "mixins": [
+  	{
+  		"environment": "*",
+    	"config": "accuratenetherportals.mixins.json"
+    }
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric":       "*",
+    "crochet":      "*"
+  }
+}

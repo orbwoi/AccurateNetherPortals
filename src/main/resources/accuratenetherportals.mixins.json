@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "net.clayborn.accuratenetherportals.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+     "PortalForcerMixin",
+     "IEntityLastPortalPositionAccessor",
+     "EntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
