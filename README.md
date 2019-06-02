@@ -1,4 +1,4 @@
-# AccurateNetherPortals
+# Accurate Nether Portals
 
 A simple fabric mod for minecraft which helps players always return to the place they came from when using nether portals!
 
